@@ -49,3 +49,14 @@ body{
     display: flex;
     justify-content: center;
 }
+.branco{
+    color: aliceblue;
+}
+
+.conteudo-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
