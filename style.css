@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital,wght@0,400;1,900&family=Montserrat&display=swap');
 
+*{
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    
 
-
-
+}
 
 .marrom-cantinho{
     background-color: #daa57b;
@@ -11,4 +17,35 @@
 }
 .branco-cantinho{
     background-color: #fff9f4;
+}
+
+.novobtn{
+    background-color: #c79368;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px ;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.novobtn:hover{
+    background-color: #b68258;
+    
+}
+.coracao{
+    animation: coracao 2s linear infinite;
+}
+
+@keyframes coracao{
+    0%{transform: scale(1.0);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.0);}
+}
+.conteudo-1{
+    border: 1px solid red;
+    
+}
+.meuslide{
+    display: flex;
+    justify-content: center;
 }
